@@ -20,8 +20,8 @@ if (isset($_GET['id'])) {
     <?php if ($product): ?>
         <h1>Карточка продукта</h1>
         <p><b>ID:</b> <?php echo $product['id']; ?></p>
-        <p><b>Имя:</b> <?php echo $product['title']; ?></p>
-        <p><b>Email:</b> <?php echo $product['price']; ?></p>
+        <p><b>Название товара:</b> <?php echo $product['title']; ?></p>
+        <p><b>Цена:</b> <?php echo $product['price']; ?></p>
     <?php else: ?>
         <p>Позиция не найдена!</p>
     <?php endif; ?>
