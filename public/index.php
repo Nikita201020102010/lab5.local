@@ -29,7 +29,7 @@ $result2 = $conn->query($sql2);
         <?php
         while($row = $result2->fetch_assoc()) {
             echo "<li>";
-            echo "<a href='products.php?id=" . $row['id'] . "'>" . $row['title'] . "</a>";
+            echo "<a href='product.php?id=" . $row['id'] . "'>" . $row['title'] . "</a>";
             echo "</li>";
         }
         ?>
