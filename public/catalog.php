@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <label>Название позиции:</label><br>
         <input type="text" name="product_title"><br><br>
         <label>Цена</label><br>
-        <input type="int" name="product_price"><br><br>
+        <input type="number" name="product_price"><br><br>
         <input type="submit" value="Сохранить в БД">
     </form>
 </body>
