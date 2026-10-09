@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Добавить позицию</title>
 </head>
 <body>
-    <a href="products.php">Назад к списку</a>
+    <a href="index.php">Назад к списку</a>
     <hr>
     <h1>Форма добавления новой позиции</h1>
     <form action="catalog.php" method="POST">
